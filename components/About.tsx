@@ -1,13 +1,22 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <section id="about" className="bg-[#EDE9E0] py-24 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left: avatar / monogram */}
+          {/* Left: photo */}
           <div className="flex justify-center lg:justify-start">
             <div className="relative">
-              <div className="w-64 h-64 bg-[#0B1F3A] rounded-3xl flex items-center justify-center shadow-2xl">
-                <span className="font-serif text-[#C9943A] text-7xl font-bold">WP</span>
+              <div className="w-72 h-80 rounded-3xl overflow-hidden">
+                <Image
+                  src="/will-polese.png"
+                  alt="Will Polese, CEO & Founder of Polese Strategic Insights"
+                  width={288}
+                  height={320}
+                  className="w-full h-full object-cover object-top"
+                  priority
+                />
               </div>
               {/* Floating badge */}
               <div className="absolute -bottom-4 -right-4 bg-[#C9943A] text-white rounded-xl px-4 py-3 shadow-lg">
