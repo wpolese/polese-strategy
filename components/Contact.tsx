@@ -46,7 +46,7 @@ export default function Contact() {
 
             <div className="space-y-5">
               {[
-                { icon: "📍", label: "Based in", value: "Seoul, South Korea" },
+                { icon: "📍", label: "Based in", value: "Asia-Pacific" },
                 { icon: "🌏", label: "Coverage", value: "Asia-Pacific Markets" },
                 { icon: "✉️", label: "Email", value: "will@polesestrategy.com" },
               ].map((item) => (
