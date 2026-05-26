@@ -28,7 +28,7 @@ export default function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-3 group">
+        <Link href="/" className="flex items-center gap-3 group">
           <div className="w-9 h-9 bg-[#C9943A] rounded flex items-center justify-center">
             <span className="font-serif text-white font-bold text-sm">PSI</span>
           </div>
@@ -36,7 +36,7 @@ export default function Navbar() {
             Polese Strategic<br />
             <span className="text-[#C9943A] text-sm font-normal">Insights</span>
           </span>
-        </a>
+        </Link>
 
         {/* Desktop links */}
         <div className="hidden md:flex items-center gap-8">
