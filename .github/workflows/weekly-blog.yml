@@ -1,0 +1,76 @@
+name: Weekly Blog Post Generator
+
+on:
+  schedule:
+    # Every Monday at 7 AM UTC (4 PM JST / 3 PM SGT) — before the work week starts
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+    inputs:
+      topic_override:
+        description: "Optional: override the topic (leave blank to use the rotation list)"
+        required: false
+        default: ""
+
+jobs:
+  generate-post:
+    name: Generate and PR blog post
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate blog post
+        run: node scripts/generate-blog-post.mjs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TOPIC_OVERRIDE: ${{ github.event.inputs.topic_override }}
+
+      - name: Verify build still passes
+        run: npm run build
+
+      - name: Read generated post title
+        id: post-meta
+        run: |
+          # Extract the first title from lib/posts.ts (the newest post)
+          TITLE=$(node -e "
+            const fs = require('fs');
+            const content = fs.readFileSync('lib/posts.ts', 'utf-8');
+            const match = content.match(/title:\s*\"([^\"]+)\"/);
+            console.log(match ? match[1] : 'New Post');
+          ")
+          echo "title=$TITLE" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "content: add weekly blog post"
+          title: "Weekly Post: ${{ steps.post-meta.outputs.title }}"
+          body: |
+            ## Auto-generated weekly blog post
+
+            This PR was created by the [weekly blog post workflow](https://github.com/${{ github.repository }}/actions/workflows/weekly-blog.yml).
+
+            **Before merging, please review:**
+            - [ ] Content is accurate and consistent with PSI's voice
+            - [ ] All citations reference real, verifiable sources
+            - [ ] No factual errors or unsupported claims
+            - [ ] The post adds value and is not a repeat of existing content
+
+            Once merged, Vercel will automatically redeploy the site.
+          branch: weekly-blog-${{ github.run_number }}
+          delete-branch: true
+          labels: "content,auto-generated"
