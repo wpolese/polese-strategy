@@ -638,6 +638,69 @@ export const caseStudies: CaseStudy[] = [
 </ol>
     `.trim(),
   },
+  {
+    slug: "iflix-southeast-asia",
+    company: "iflix",
+    market: "Southeast Asia (25 markets)",
+    industry: "Streaming / Consumer Tech",
+    period: "2015–2020",
+    outcome: "failure",
+    headline: "iflix: The Netflix for Emerging Markets That Couldn't Outlast Netflix",
+    summary:
+      "iflix raised $348M, expanded to 25 markets across Southeast Asia, the Middle East, and Africa, and reached 25 million active users. In 2020 Tencent bought it for 'tens of millions' — far less than the capital it had consumed. The fundamental problem was not execution. It was that iflix built a subscription streaming business in markets where the structural economics of that model were never going to work.",
+    excerpt:
+      "iflix raised $348M, expanded to 25 markets, and reached 25 million users. Tencent bought it in 2020 for 'tens of millions.' The problem was not execution — it was that iflix built a subscription streaming model in markets where the structural economics of that model were never going to work.",
+    date: "May 26, 2026",
+    readTime: "5 min read",
+    content: `
+<p>iflix was founded in Kuala Lumpur in 2015 with a clear thesis: Southeast Asia's growing middle class wanted good entertainment, Netflix's $11/month price point was out of reach, and a localised streaming service priced at $3/month that offered regional content alongside Hollywood titles could capture the market.</p>
+
+<p>It raised $348 million from investors including Sky, Fidelity, Hearst, and Liberty Global.<sup><a href="#ref-1">[1]</a></sup> At its peak it operated in 25 markets across Southeast Asia, the Middle East, and Africa, had 25 million active users, and was processing 2.5 billion minutes of content per month.<sup><a href="#ref-2">[2]</a></sup></p>
+
+<p>In June 2020, Tencent acquired iflix's content library and technology assets for what analysts described as "tens of millions of dollars" — a fraction of the capital the company had consumed.<sup><a href="#ref-3">[3]</a></sup></p>
+
+<p>The post-mortem is not about bad execution. iflix executed reasonably well against its own strategy. The problem was the strategy itself was built on a set of assumptions about market structure that did not hold.</p>
+
+<h2>What Went Wrong</h2>
+
+<h3>1. The Netflix Problem Was Misunderstood</h3>
+<p>iflix's founding thesis assumed Netflix was a premium product serving a premium segment, and that a lower-cost regional alternative could serve everyone else. What iflix did not adequately account for was Netflix's ability and willingness to follow them down-market.</p>
+<p>Streaming is a zero-marginal-cost business: delivering content to one more viewer costs almost nothing. Netflix's content library — built over years with billions in investment — could be amortised across a global subscriber base. iflix was trying to compete for the same viewers by licensing less content at lower quality at a similar (or only modestly lower) price point, without Netflix's ability to spread costs across 200 million subscribers.<sup><a href="#ref-3">[3]</a></sup> When Netflix launched mobile-only plans in Asia at $3/month, iflix's price advantage evaporated.</p>
+
+<h3>2. Trapped Between Netflix and Free</h3>
+<p>iflix found itself caught between two competitors it could not beat on their own terms. At the top end, Netflix out-spent it on content quality and brand. At the bottom, YouTube was free. Piracy was free. WhatsApp video forwards were free.</p>
+<p>The $3/month price point that seemed low in absolute terms was not low relative to the total cost of consuming it: users in countries with expensive, limited mobile data had to pay for data <em>and</em> a subscription to watch anything. The switching cost to piracy or YouTube was near zero.<sup><a href="#ref-4">[4]</a></sup></p>
+
+<h3>3. Content Costs Were Structural, Not Solvable</h3>
+<p>In 2018, iflix generated $42 million in revenue and posted $158 million in after-tax losses — burning approximately $7 million per month.<sup><a href="#ref-2">[2]</a></sup> Content licensing from Hollywood studios was priced in USD; subscription revenue was collected in local currencies at low price points. The unit economics of paying $X to license a show and collecting fractions of a dollar per subscriber per month across a fragmented 25-country footprint never worked. The model required scale that required content that required capital that required scale — a loop iflix could not close.</p>
+
+<h3>4. Telco Partnerships Distributed the Product Without Fixing the Economics</h3>
+<p>iflix built an extensive network of telco partnerships across Southeast Asia, bundling its service with mobile data plans. This solved the distribution problem and the payment infrastructure problem — both real barriers in emerging markets. What it did not solve was the content cost problem or the fact that subscribers acquired through telco bundles had lower engagement and higher churn than direct subscribers.</p>
+<p>By 2017, iflix had 27 telco distribution partnerships across its markets. Distribution was not the constraint. Sustainable unit economics were.<sup><a href="#ref-5">[5]</a></sup></p>
+
+<h3>5. IPO Timing Was the Final Blow</h3>
+<p>By early 2020, iflix had a deal with Fidelity contingent on completing an ASX IPO by July 31 — a "material adverse change" clause that required iflix to buy back Fidelity's shares if the IPO did not proceed. When COVID-19 crashed global stock markets by 30% in March 2020, the IPO window closed, the Fidelity clause triggered, and iflix ran out of options.<sup><a href="#ref-4">[4]</a></sup></p>
+
+<h2>Key Lessons</h2>
+<ul>
+<li><strong>A large addressable market does not validate a business model.</strong> 600 million people in Southeast Asia wanting entertainment is not evidence that a $3/month subscription streaming service is viable. The market size and the model viability are separate questions.</li>
+<li><strong>In winner-take-all markets, being a regional player is a temporary position, not a defensible one.</strong> Global-scale competitors with more content and more capital will eventually follow you into your price segment.</li>
+<li><strong>Understand what "free" means in your market before pricing against it.</strong> In markets where piracy is widespread and YouTube is dominant, the consumer's reference price for content is zero — not whatever Netflix charges.</li>
+<li><strong>Distribution partnerships solve distribution problems, not unit economics problems.</strong> Telco bundling got iflix in front of users. It did not make the business profitable.</li>
+</ul>
+
+<hr />
+
+<h2 id="sources">Sources</h2>
+<ol class="references-list">
+  <li id="ref-1">CB Insights, <a href="https://www.cbinsights.com/company/iflix" target="_blank" rel="noopener noreferrer">iflix Company Profile.</a> Total funding: $348M, Series D, founded 2014.</li>
+  <li id="ref-2">Variety, <a href="https://variety.com/2020/biz/asia/tencent-buying-iflix-south-east-asian-streamer-1234643729/" target="_blank" rel="noopener noreferrer">"Tencent Video to Buy iflix, Southeast Asian Streamer,"</a> June 2020. Documents 25M active users, 2.5bn minutes/month, $158M 2018 losses on $42M revenue.</li>
+  <li id="ref-3">Emerging Markets / Substack, <a href="https://emerging.substack.com/p/iflixs-original-sin" target="_blank" rel="noopener noreferrer">"iflix's Original Sin."</a> Analysis of the Netflix content-and-scale economics problem and why regional challengers cannot win the streaming content game without global scale.</li>
+  <li id="ref-4">The Ken, <a href="https://the-ken.com/story/time-runs-out-as-iflixs-ghost-ship-starts-sinking/" target="_blank" rel="noopener noreferrer">"Time runs out as iflix's ghost ship starts sinking."</a> Documents the $7M/month burn rate, the Fidelity IPO clause, and the COVID market crash that closed the IPO window.</li>
+  <li id="ref-5">Hearst Press Release, <a href="https://www.hearst.com/-/iflix-secures-additional-133-million-funding-led-by-hearst" target="_blank" rel="noopener noreferrer">"iflix Secures Additional $133 Million Funding,"</a> August 2017. Documents the 27 telco distribution partnerships at the time of the $133M round.</li>
+</ol>
+    `.trim(),
+  },
 ];
 
 export function getCaseStudy(slug: string): CaseStudy | undefined {
