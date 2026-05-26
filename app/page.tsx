@@ -4,6 +4,7 @@ import Services from "@/components/Services";
 import WhyPSI from "@/components/WhyPSI";
 import Process from "@/components/Process";
 import About from "@/components/About";
+import LatestInsights from "@/components/LatestInsights";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <WhyPSI />
       <Process />
       <About />
+      <LatestInsights />
       <Contact />
       <Footer />
     </main>

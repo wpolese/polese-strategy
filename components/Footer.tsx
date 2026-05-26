@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="bg-[#060F1C] py-12 px-6">
@@ -17,16 +19,22 @@ export default function Footer() {
           </div>
 
           {/* Nav links */}
-          <div className="flex gap-6">
+          <div className="flex flex-wrap gap-6 justify-center">
             {["Services", "Why PSI", "Process", "About", "Contact"].map((label) => (
-              <a
+              <Link
                 key={label}
-                href={`#${label.toLowerCase().replace(" ", "-")}`}
+                href={`/#${label.toLowerCase().replace(" ", "-")}`}
                 className="text-white/40 hover:text-[#C9943A] text-xs transition-colors"
               >
                 {label}
-              </a>
+              </Link>
             ))}
+            <Link
+              href="/blog"
+              className="text-white/40 hover:text-[#C9943A] text-xs transition-colors"
+            >
+              Insights
+            </Link>
           </div>
         </div>
 

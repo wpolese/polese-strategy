@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -12,10 +13,11 @@ export default function Navbar() {
   }, []);
 
   const links = [
-    { label: "Services", href: "#services" },
-    { label: "Why PSI", href: "#why-psi" },
-    { label: "Process", href: "#process" },
-    { label: "About", href: "#about" },
+    { label: "Services", href: "/#services" },
+    { label: "Why PSI", href: "/#why-psi" },
+    { label: "Process", href: "/#process" },
+    { label: "About", href: "/#about" },
+    { label: "Insights", href: "/blog" },
   ];
 
   return (
@@ -39,20 +41,20 @@ export default function Navbar() {
         {/* Desktop links */}
         <div className="hidden md:flex items-center gap-8">
           {links.map((l) => (
-            <a
+            <Link
               key={l.href}
               href={l.href}
               className="text-white/80 hover:text-[#C9943A] text-sm font-medium transition-colors duration-200"
             >
               {l.label}
-            </a>
+            </Link>
           ))}
-          <a
-            href="#contact"
+          <Link
+            href="/#contact"
             className="bg-[#C9943A] hover:bg-[#E0B060] text-white text-sm font-semibold px-5 py-2.5 rounded transition-colors duration-200"
           >
             Get in Touch
-          </a>
+          </Link>
         </div>
 
         {/* Mobile hamburger */}
@@ -67,26 +69,26 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile menu */}
+        {/* Mobile menu */}
       {menuOpen && (
         <div className="md:hidden bg-[#0B1F3A] border-t border-white/10 px-6 py-4 flex flex-col gap-4">
           {links.map((l) => (
-            <a
+            <Link
               key={l.href}
               href={l.href}
               className="text-white/80 hover:text-[#C9943A] text-sm font-medium"
               onClick={() => setMenuOpen(false)}
             >
               {l.label}
-            </a>
+            </Link>
           ))}
-          <a
-            href="#contact"
+          <Link
+            href="/#contact"
             className="bg-[#C9943A] text-white text-sm font-semibold px-5 py-2.5 rounded text-center"
             onClick={() => setMenuOpen(false)}
           >
             Get in Touch
-          </a>
+          </Link>
         </div>
       )}
     </nav>

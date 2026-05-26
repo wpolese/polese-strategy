@@ -50,3 +50,73 @@ body {
 .delay-200 { animation-delay: 200ms; }
 .delay-300 { animation-delay: 300ms; }
 .delay-400 { animation-delay: 400ms; }
+
+/* Blog post prose */
+.prose-psi {
+  color: #0B1F3A;
+  font-size: 1.0625rem;
+  line-height: 1.8;
+}
+.prose-psi p {
+  margin-bottom: 1.4rem;
+}
+.prose-psi h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #0B1F3A;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+.prose-psi h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0B1F3A;
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
+}
+.prose-psi ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.4rem;
+}
+.prose-psi ul li {
+  position: relative;
+  padding-left: 1.4rem;
+  margin-bottom: 0.6rem;
+  color: rgba(11, 31, 58, 0.8);
+}
+.prose-psi ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.65rem;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #C9943A;
+}
+.prose-psi ul li strong {
+  color: #0B1F3A;
+}
+.prose-psi strong {
+  font-weight: 700;
+  color: #0B1F3A;
+}
+.prose-psi em {
+  font-style: italic;
+}
+.prose-psi hr {
+  border: none;
+  border-top: 1px solid #EDE9E0;
+  margin: 2.5rem 0;
+}
+.prose-psi a {
+  color: #C9943A;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.prose-psi a:hover {
+  color: #A87728;
+}

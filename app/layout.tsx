@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Polese Strategic Insights | APAC Market Entry & Expansion",
+  title: "APAC Market Entry & Growth Strategy | Polese Strategic Insights",
   description:
     "CEO-led boutique consulting firm delivering strategic clarity for companies entering and expanding in APAC markets. Market research, GTM strategy, competitive analysis, and partner identification.",
   keywords: ["APAC market entry", "market research", "GTM strategy", "APAC consulting", "strategic insights"],
