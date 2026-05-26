@@ -16,7 +16,7 @@ export default function Navbar() {
     { label: "Services", href: "/#services" },
     { label: "Why PSI", href: "/#why-psi" },
     { label: "Process", href: "/#process" },
-    { label: "About", href: "/#about" },
+    { label: "Case Studies", href: "/case-studies" },
     { label: "Insights", href: "/blog" },
   ];
 

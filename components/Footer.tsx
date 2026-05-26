@@ -30,6 +30,12 @@ export default function Footer() {
               </Link>
             ))}
             <Link
+              href="/case-studies"
+              className="text-white/40 hover:text-[#C9943A] text-xs transition-colors"
+            >
+              Case Studies
+            </Link>
+            <Link
               href="/blog"
               className="text-white/40 hover:text-[#C9943A] text-xs transition-colors"
             >
