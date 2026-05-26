@@ -23,6 +23,21 @@ export const metadata: Metadata = {
     title: "Polese Strategic Insights",
     description: "Strategic Clarity for APAC Growth",
     type: "website",
+    url: "https://polesestrategy.com",
+    images: [
+      {
+        url: "https://polesestrategy.com/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Polese Strategic Insights — Strategic Clarity for APAC Growth",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Polese Strategic Insights",
+    description: "Strategic Clarity for APAC Growth",
+    images: ["https://polesestrategy.com/og-image.png"],
   },
 };
 
