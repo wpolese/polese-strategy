@@ -521,6 +521,123 @@ export const caseStudies: CaseStudy[] = [
 </ol>
     `.trim(),
   },
+  {
+    slug: "honestbee-apac",
+    company: "Honestbee",
+    market: "APAC (8 markets)",
+    industry: "Grocery / Food Delivery",
+    period: "2015–2020",
+    outcome: "failure",
+    headline: "Honestbee: Eight Markets, No Proof of Concept",
+    summary:
+      "Honestbee was a Singapore-based grocery and food delivery startup that raised $49M and expanded to eight APAC markets in three years. By 2019 it was delaying staff salaries, owing creditors over $180M, and winding down operations in market after market. The autopsy is straightforward: it expanded without ever proving the business model worked in a single market first.",
+    excerpt:
+      "Honestbee raised $49M and expanded to eight APAC markets in three years. By 2019 it was delaying salaries and owing creditors $180M+. The autopsy is straightforward: it expanded into new markets without ever proving the business model worked in a single market first.",
+    date: "May 26, 2026",
+    readTime: "4 min read",
+    content: `
+<p>Honestbee was founded in Singapore in 2015 with a clear pitch: an online grocery and food delivery service that would work with local supermarkets and restaurants to serve urban Asian consumers. By 2018, it operated in eight APAC markets — Singapore, Hong Kong, Taiwan, Thailand, Indonesia, Malaysia, the Philippines, and Japan — and had launched three new product lines in a single year.<sup><a href="#ref-1">[1]</a></sup></p>
+
+<p>By April 2019, it was delaying salary payments to staff, pausing operations across multiple markets, and running out of cash. By July 2020, it had been ordered into liquidation with creditors owed over $180 million.<sup><a href="#ref-2">[2]</a></sup></p>
+
+<p>Honestbee is not a story about a difficult market. It is a story about what happens when a startup confuses the number of markets it operates in with evidence that its business model works.</p>
+
+<h2>What Went Wrong</h2>
+
+<h3>1. Expansion Before Proof</h3>
+<p>At the point when Honestbee was entering its fifth, sixth, and seventh markets, just three of its eight markets — Singapore, the Philippines, and Taiwan — accounted for more than 80% of its gross merchandise value. The other five markets were consuming capital without contributing meaningfully to revenue.<sup><a href="#ref-3">[3]</a></sup></p>
+<p>Rather than concentrating on making the business model work in its strongest markets before expanding, Honestbee entered five new markets in 2018 alone while simultaneously launching three new product verticals. By the end of 2018, losses had reached $6.5 million — and the business had never demonstrated that it could reach profitability in even its most established market.<sup><a href="#ref-4">[4]</a></sup></p>
+
+<h3>2. The Unit Economics Were Never Solved</h3>
+<p>Online grocery delivery in Asia is a structurally difficult business: tight margins on perishable goods, high last-mile delivery costs, and consumers who are highly price-sensitive and accustomed to comparing options across apps. Honestbee's response to this challenge was to use heavy coupon discounting to drive short-term revenue — a strategy that boosted transaction numbers while destroying margin. Sources close to the company described the coupon use as "outrageous."<sup><a href="#ref-3">[3]</a></sup></p>
+<p>Discounts can accelerate customer acquisition in a market where the unit economics are proven. They cannot substitute for unit economics that were never solved in the first place.</p>
+
+<h3>3. Complexity Without Infrastructure</h3>
+<p>Each new market and each new product vertical added operational complexity faster than the company could build the infrastructure to manage it. Grocery delivery, food delivery, laundry services, and a physical retail concept (Habitat, an offline/online grocery store in Singapore) were running simultaneously across eight countries — each with different regulatory environments, logistics infrastructure, and consumer behaviour.<sup><a href="#ref-1">[1]</a></sup></p>
+<p>At the point of collapse, the company's leadership acknowledged that the business had not had time to stabilise operations in each market before moving to the next.<sup><a href="#ref-4">[4]</a></sup></p>
+
+<h3>4. Capital Ran Out Before the Model Was Found</h3>
+<p>Honestbee raised approximately $49 million from investors.<sup><a href="#ref-4">[4]</a></sup> That sounds like a significant war chest — until you consider it was spread across eight markets, three product lines, and a physical retail concept, in an industry with notoriously thin margins. By early 2019, the company was in talks with Grab, Gojek, and others about a potential acquisition or rescue. None materialised.</p>
+
+<h2>Key Lessons</h2>
+<ul>
+<li><strong>The number of markets you operate in is not a business metric.</strong> Geographic footprint without unit economics is not progress — it is accelerated cash burn.</li>
+<li><strong>Prove the model in one market before replicating it.</strong> Expanding before you have demonstrated profitability — or at minimum a clear path to it — means you are multiplying an unproven problem, not scaling a proven solution.</li>
+<li><strong>Discounts are not a substitute for product-market fit.</strong> Revenue generated through coupons disappears when the coupons do. Retention and margin are what matter.</li>
+<li><strong>In APAC, each market is genuinely different.</strong> Grocery shopping behaviour, logistics infrastructure, payment preferences, and regulatory requirements vary significantly between Singapore, Japan, Indonesia, and the Philippines. An eight-country expansion is not one problem eight times — it is eight different problems simultaneously.</li>
+</ul>
+
+<hr />
+
+<h2 id="sources">Sources</h2>
+<ol class="references-list">
+  <li id="ref-1">TechCrunch, <a href="https://techcrunch.com/2019/04/25/time-maybee-running-out-for-honestbee/" target="_blank" rel="noopener noreferrer">"Grocery delivery startup Honestbee is running out of money and trying to sell,"</a> April 25, 2019. Documents the eight-market footprint, the 80%+ GMV concentration in three markets, and the coupon strategy.</li>
+  <li id="ref-2">The Straits Times, <a href="https://www.straitstimes.com/business/honestbee-applies-for-court-protection-from-creditors-owed-over-us180m-lays-off-another-38" target="_blank" rel="noopener noreferrer">"Honestbee applies for court protection from creditors owed $247m,"</a> 2019. Documents the $180M+ creditor debt and court restructuring application.</li>
+  <li id="ref-3">TechCrunch (ibid). Three markets representing 80%+ GMV and coupon strategy described as "outrageous."</li>
+  <li id="ref-4">Why Startups Fail, <a href="https://whystartupsfail.substack.com/p/premium-case-study-01-honestbee" target="_blank" rel="noopener noreferrer">"Premium Case Study 01 — Honestbee."</a> Documents the $49M raise, five market entries and three product launches in 2018, $6.5M losses by end of 2018, and operational stabilisation failures.</li>
+</ol>
+    `.trim(),
+  },
+  {
+    slug: "slack-japan",
+    company: "Slack",
+    market: "Japan",
+    industry: "B2B SaaS",
+    period: "2015–present",
+    outcome: "success",
+    headline: "Slack Japan: Research First, Launch Second",
+    summary:
+      "Before Slack had a Japanese product, Japan was already its third-largest market. Most companies would have launched immediately. Slack spent six months doing in-person user research in Japanese offices before releasing the Japanese version — then built a localisation, sales, and positioning strategy around what they learned. Japan went on to become their second-largest market globally.",
+    excerpt:
+      "Before Slack had a Japanese product, Japan was already its third-largest market. Most companies would have launched immediately. Slack spent six months doing in-person user research in Japanese offices first — then built a localisation, sales, and positioning strategy around what they found. Japan became their second-largest market globally.",
+    date: "May 26, 2026",
+    readTime: "4 min read",
+    content: `
+<p>By 2017, Japan had become Slack's third-largest market globally — despite the fact that Slack had no Japanese-language product, no Japan office, and no Japan sales team.<sup><a href="#ref-1">[1]</a></sup> The product had spread organically through multinational companies operating in Japan, and Japanese users had adopted it in English.</p>
+
+<p>The conventional response to discovering this would be to launch a Japanese version as quickly as possible and capture the organic demand. Slack did not do that. Instead, six months before the Japanese launch, they sent a team to Japan to conduct in-person research in Japanese offices — visiting companies, observing how teams actually worked, and understanding what would need to be different about Slack for a Japanese context.<sup><a href="#ref-2">[2]</a></sup></p>
+
+<p>Japan subsequently became Slack's second-largest market globally.</p>
+
+<h2>What Slack Got Right</h2>
+
+<h3>1. Research Before Launch, Not After</h3>
+<p>Slack's localisation project manager, Reiko Knickerbocker, described the purpose of the Japan research trip explicitly: the product team needed to identify risks in the current product for a Japanese context; the marketing team needed to understand the right approach for Japanese acquisition; and the localisation team needed to establish the right Japanese voice and tone — "appropriate to Japanese users" rather than a literal translation of the English product's personality.<sup><a href="#ref-2">[2]</a></sup></p>
+<p>This is a fundamentally different orientation to market entry. Most software companies localise by translating strings, adjusting date formats, and launching. Slack treated voice and tone — how the product speaks to the user — as a core localisation problem, not an afterthought.</p>
+
+<h3>2. The Japanese Voice Was Designed, Not Translated</h3>
+<p>Japanese has multiple politeness levels (keigo), and the appropriate register for a workplace software product is not obvious. Too formal feels bureaucratic; too casual feels disrespectful. Slack's approach was to establish a Japanese voice that preserved the product's characteristic friendliness — different from enterprise software norms — but calibrated to a level of politeness appropriate for Japanese professional contexts.<sup><a href="#ref-3">[3]</a></sup></p>
+<p>This required a Japanese-speaking translator embedded in the localisation team from 2016, working through this calibration before a single line of the Japanese product was shipped to users.</p>
+
+<h3>3. Positioned Around an Existing Market Tailwind</h3>
+<p>The Japanese launch in November 2017 coincided with — and was explicitly positioned around — Japan's <em>hatarakikata kaikaku</em> (働き方改革, "working style reform") movement: a government-backed initiative to improve workplace productivity, reduce overwork, and modernise how Japanese companies operated. Slack's CTO Cal Henderson acknowledged the role of this tailwind directly: "Japan has working style reform, and that created a path to success."<sup><a href="#ref-1">[1]</a></sup></p>
+<p>This was not opportunistic rebranding. It was recognising that a macro policy environment had created genuine organisational openness to changing how people communicated at work — and that Slack was positioned to benefit from that openness if it entered at the right moment with the right framing.</p>
+
+<h3>4. Local Talent With Relevant Domain Experience</h3>
+<p>Slack's Japan sales team hired Yoshinori Kumagai, a senior account executive with prior experience at Oracle Japan — one of Japan's most established enterprise software companies with a deep understanding of how large Japanese organisations buy and adopt enterprise technology.<sup><a href="#ref-1">[1]</a></sup> The hire was not symbolic. Enterprise SaaS sales in Japan requires understanding the ringi approval process, the role of system integrators, and how to navigate multi-stakeholder buying committees. Kumagai brought that knowledge directly into Slack's go-to-market.</p>
+
+<h3>5. Patient Growth</h3>
+<p>Slack CEO Stewart Butterfield described the Japan strategy simply: "We are never in a hurry. We want to walk with our customers patiently over the long term."<sup><a href="#ref-4">[4]</a></sup> Six months after the Japanese launch, active users grew from 330,000 to over 500,000. Within 18 months of the Japanese launch, Japan had moved from third-largest to second-largest market globally.</p>
+
+<h2>Key Lessons</h2>
+<ul>
+<li><strong>Organic demand is a starting point for research, not a permission slip to skip it.</strong> The fact that Japanese users were already adopting Slack in English told Slack there was demand — it did not tell them what the product needed to be to serve that demand well.</li>
+<li><strong>Tone and voice are product decisions, not translation decisions.</strong> How a product communicates with its users is as culturally specific as any UI pattern or feature set. In Japan especially, the wrong register signals a company that does not understand its market.</li>
+<li><strong>Market tailwinds are real — but you have to recognise them.</strong> Slack's positioning around <em>hatarakikata kaikaku</em> worked because the team understood the Japanese market well enough to see the connection between government policy and enterprise software adoption.</li>
+<li><strong>Your first enterprise sales hire in Japan matters more than your first product decision.</strong> The combination of product localisation and sales expertise built for Japanese enterprise buying processes was what converted organic user adoption into commercial traction.</li>
+</ul>
+
+<hr />
+
+<h2 id="sources">Sources</h2>
+<ol class="references-list">
+  <li id="ref-1">Business Insider Japan, <a href="https://www.businessinsider.jp/article/107362/" target="_blank" rel="noopener noreferrer">"Slackが日本法人を設立,"</a> November 2017. Cal Henderson CTO interview: Japan as third-largest market at launch, 450K weekly active users, working style reform positioning, and enterprise sales hire.</li>
+  <li id="ref-2">YouTube / Reiko Knickerbocker, Slack, <a href="https://www.youtube.com/watch?v=U4cJjxEdP-c" target="_blank" rel="noopener noreferrer">"How Slack ran data collection in Japan to localize for Japanese users."</a> First-person account of the six-month pre-launch research trip, the goals for product, marketing, and localisation teams, and the Japanese voice and tone work.</li>
+  <li id="ref-3">Slack Blog (Japanese), <a href="https://slack.com/intl/ja-jp/blog/collaboration/slack-%E3%81%AE%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%A9%E3%82%A4%E3%82%BC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3" target="_blank" rel="noopener noreferrer">"Slackのローカライゼーション."</a> Localisation team's account of establishing Japanese voice, tone, and the principle that a well-localised product should feel native wherever the user is.</li>
+  <li id="ref-4">Business Insider Japan, <a href="https://www.businessinsider.jp/article/170136/" target="_blank" rel="noopener noreferrer">"SlackのCEOと日本代表に直撃,"</a> 2018. Stewart Butterfield interview on patient Japan strategy; 330K to 500K+ user growth in six months post-launch; Japan reaching second-largest market globally.</li>
+</ol>
+    `.trim(),
+  },
 ];
 
 export function getCaseStudy(slug: string): CaseStudy | undefined {
