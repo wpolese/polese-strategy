@@ -4,8 +4,8 @@ import { caseStudies } from "@/lib/case-studies";
 const FEATURED_SLUGS = [
   "linkedin-china",
   "vodafone-japan",
-  "gojek-vietnam",
-  "kitkat-japan",
+  "kelloggs-india",
+  "mcdonalds-india",
 ];
 
 export default function CaseStudiesTeaser() {

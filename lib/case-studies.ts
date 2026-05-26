@@ -391,6 +391,136 @@ export const caseStudies: CaseStudy[] = [
 </ol>
     `.trim(),
   },
+  {
+    slug: "mcdonalds-india",
+    company: "McDonald's",
+    market: "India",
+    industry: "FMCG / QSR",
+    period: "1996–present",
+    outcome: "success",
+    headline: "McDonald's India: The World's First Beefless McDonald's",
+    summary:
+      "McDonald's entered India in 1996 — the same year Kellogg's India was collapsing. They entered the same market, faced the same cultural complexity, and reached the opposite result. The difference was not luck or brand strength. It was a willingness to rebuild the product, the supply chain, and the operating model from the ground up.",
+    excerpt:
+      "McDonald's entered India in 1996 — the same year Kellogg's was failing in the same market. Faced with the same cultural complexity, they reached the opposite result. The difference was a willingness to rebuild the product, the supply chain, and the operating model from scratch.",
+    date: "May 26, 2026",
+    readTime: "5 min read",
+    content: `
+<p>On October 1, 1996, McDonald's opened its first Indian restaurant in Vasant Vihar, New Delhi — the world's first McDonald's with no beef and no pork on the menu.<sup><a href="#ref-1">[1]</a></sup> Three days later, the second opened in Mumbai. The model they deployed looked almost nothing like McDonald's anywhere else in the world.</p>
+
+<p>That was the point.</p>
+
+<p>McDonald's entered India one year after Kellogg's had launched and failed — also in India, also with significant capital, also with a globally recognised brand. Kellogg's assumed Indian consumers would adapt to their product. McDonald's spent years before opening a single store ensuring their product had adapted to Indian consumers. The outcomes were not coincidental.</p>
+
+<h2>What McDonald's Got Right</h2>
+
+<h3>1. The Product Was Rebuilt, Not Localised</h3>
+<p>Removing beef and pork was not a marketing adjustment — it was a complete product rebuild. Roughly 75% of the Indian menu was developed specifically for the market.<sup><a href="#ref-2">[2]</a></sup> The Maharaja Mac replaced the Big Mac with a mutton patty. The McAloo Tikki Burger — a potato-and-pea cutlet spiced to resemble Indian street food — became the entry-level product at ₹20, explicitly designed to be the McDonald's version of a vada pav.<sup><a href="#ref-3">[3]</a></sup> In its early years, the McAloo Tikki accounted for approximately 25% of total sales.<sup><a href="#ref-2">[2]</a></sup></p>
+<p>Mayonnaise was reformulated without eggs for vegetarians. Spice profiles were adjusted for the Indian palate — flavours that were bolder, sharper, and familiar from street food traditions rather than approximations of Western fast food.</p>
+
+<h3>2. Operational Segregation Built Trust</h3>
+<p>In a country where religious and dietary restrictions are deeply embedded in daily life — with ~80% of the population Hindu and 150 million Muslims — the credibility of a "vegetarian" menu item depends on whether the consumer believes the kitchen actually honours that distinction. McDonald's introduced a fully segregated operating system: separate cooking equipment, utensils, storage, preparation zones, staff, and packaging for vegetarian and non-vegetarian items. Vegetarian items are wrapped in green packaging; non-vegetarian in red.<sup><a href="#ref-1">[1]</a></sup></p>
+<p>This was expensive to implement. It was also what made the product trustworthy to a significant portion of the market that would otherwise not have eaten there at all.</p>
+
+<h3>3. The Supply Chain Was Built From Scratch</h3>
+<p>When McDonald's entered India, there was no local supply chain capable of meeting its quality and cold chain requirements. There was no large-scale iceberg lettuce cultivation in India. McDonald's worked directly with farmers in the Nilgiris and Maharashtra to develop it — partnering with suppliers from 1996 and helping them scale from 10 acres to 100 acres over two decades.<sup><a href="#ref-4">[4]</a></sup></p>
+<p>By the time McDonald's India reached scale, it was sourcing more than 96% of its products locally from Indian suppliers — including refrigeration, kitchen equipment, and restaurant construction materials. The supply chain investment was not just operational; it created a local stakeholder ecosystem that was genuinely invested in McDonald's India's success.<sup><a href="#ref-5">[5]</a></sup></p>
+
+<h3>4. The JV Structure Gave Genuine Local Authority</h3>
+<p>McDonald's India operated through two 50-50 joint ventures: Hardcastle Restaurants (Western India, led by Amit Jatia) and Connaught Plaza Restaurants (Northern India, led by Vikram Bakshi). Both JV partners were Indian businesspeople with deep local market knowledge who had operational authority — not just local representatives reporting to a global HQ.<sup><a href="#ref-5">[5]</a></sup></p>
+<p>The JV structure, combined with genuine local product authority, meant that decisions about the Indian menu could be made by people who understood the Indian consumer rather than filtered through a global product committee.</p>
+
+<h2>The Contrast With Kellogg's</h2>
+<p>Both companies entered India in the same period. Both were global leaders in their category. Both faced the same market: a country with deeply embedded food culture, enormous price sensitivity, and a consumer base that had no prior relationship with their product.</p>
+<p>Kellogg's entered with its existing product and assumed Indian consumers would adapt. McDonald's entered with a commitment to build whatever version of the product the market required. Kellogg's invested $30M and saw sales stop within a year. McDonald's invested in a supply chain, an operating model, and a product portfolio — and now serves over 400 restaurants across India.<sup><a href="#ref-4">[4]</a></sup></p>
+
+<h2>Key Lessons</h2>
+<ul>
+<li><strong>Product-market fit in a new cultural context requires genuine product change, not cosmetic localisation.</strong> "Available in local flavour" is not localisation. Rebuilding the product around local constraints is.</li>
+<li><strong>Trust is earned through operational commitment, not just messaging.</strong> McDonald's vegetarian credibility came from segregated kitchens, not advertising claims.</li>
+<li><strong>Supply chain investment is a market entry strategy, not a cost to minimise.</strong> Building local supplier relationships created competitive infrastructure that was hard for later entrants to replicate.</li>
+<li><strong>Local JV authority is not the same as a local JV structure.</strong> The partners need genuine operational control — not just a local face on a globally mandated playbook.</li>
+</ul>
+
+<hr />
+
+<h2 id="sources">Sources</h2>
+<ol class="references-list">
+  <li id="ref-1">BBC News, <a href="https://www.bbc.com/news/business-30115555" target="_blank" rel="noopener noreferrer">"How McDonald's conquered India,"</a> November 2014. Covers the beefless menu decision, McAloo Tikki origin, and the operational segregation model.</li>
+  <li id="ref-2">Markhub24, <a href="https://www.markhub24.com/post/case-study-mcdonald-s-india-menu-localization-based-on-cultural-preferences" target="_blank" rel="noopener noreferrer">"McDonald's India — Menu Localization Based on Cultural Preferences."</a> Documents the 75% Indianized menu, the McAloo Tikki's 25% of sales figure (sourced to Amit Jatia statements to Mint, 2019), and the vegetarian/non-vegetarian packaging system.</li>
+  <li id="ref-3">Markhub24, <a href="https://www.markhub24.com/post/no-beef-no-problem-mcdonald-s-india-story" target="_blank" rel="noopener noreferrer">"No Beef, No Problem: McDonald's India Story."</a> Details the October 1, 1996 opening date and the first beefless McDonald's globally.</li>
+  <li id="ref-4">McDonald's India Blog, <a href="https://mcdonaldsblog.in/2017/12/20-years-the-story-of-indias-first-large-scale-lettuce-farms/" target="_blank" rel="noopener noreferrer">"The Story of India's First Large-Scale Lettuce Farms,"</a> December 2017. Documents the Nilgiris lettuce supplier relationship from 1996, growth to 100 acres and 1,250 tonnes annually, and 400+ stores milestone.</li>
+  <li id="ref-5">Medium / Aditya Jain, <a href="https://medium.com/@jainaditya017/supply-chain-management-of-mcdonalds-india-58e1064274b5" target="_blank" rel="noopener noreferrer">"Supply Chain Management of McDonald's India."</a> Documents the 96%+ local sourcing figure, the two JV partners (Hardcastle and Connaught Plaza), and the 100% outsourced supply chain model with 40 suppliers.</li>
+</ol>
+    `.trim(),
+  },
+  {
+    slug: "starbucks-japan",
+    company: "Starbucks",
+    market: "Japan",
+    industry: "FMCG / QSR",
+    period: "1996–present",
+    outcome: "success",
+    headline: "Starbucks Japan: Selling Coffee to a Nation That Invented Tea Culture",
+    summary:
+      "Japan was Starbucks' first market outside North America. It entered a country with one of the world's most refined tea cultures, a well-established coffee shop scene, and consumers with exacting standards. Nearly 30 years later, Starbucks operates almost 2,000 stores in Japan and generates $1.2bn in annual net income. The route from there to here is not a story about brand power — it's a story about research, restraint, and cultural alignment.",
+    excerpt:
+      "Japan was Starbucks' first market outside North America — a country with a refined tea culture, an existing coffee shop scene, and exacting consumer standards. Nearly 30 years later, it operates ~2,000 stores and generates $1.2bn in annual net income. The story is not about brand power — it's about research, restraint, and cultural alignment.",
+    date: "May 26, 2026",
+    readTime: "5 min read",
+    content: `
+<p>On August 2, 1996, Starbucks opened its first store outside North America in Tokyo's Ginza district — lines stretched around the block.<sup><a href="#ref-1">[1]</a></sup> Japan was not an obvious market. It was a country with one of the world's most sophisticated tea traditions, a well-established kissaten (coffee shop) culture, and consumers known for demanding the highest quality and service standards.</p>
+
+<p>Nearly 30 years later, Starbucks Japan operates 1,991 stores and generates net income of $1.247 billion annually — one of Starbucks' best-performing markets globally.<sup><a href="#ref-2">[2]</a></sup></p>
+
+<p>The result was not inevitable. It was the product of a specific set of decisions made before and after entry that distinguished Starbucks from the companies that entered Japan in the same period and failed.</p>
+
+<h2>What Starbucks Got Right</h2>
+
+<h3>1. Research Before Entry — And a Specific Customer in Mind</h3>
+<p>Before opening a single store, Starbucks conducted extensive market research in 1995. That research produced a specific, non-obvious strategic decision: the primary target for Japan was women around the age of 30 — trendy, non-smoking professionals who were underserved by Japan's then-dominant coffee shop formats, which were often smoky, masculine in aesthetic, and less focused on quality.<sup><a href="#ref-3">[3]</a></sup></p>
+<p>Starbucks opened its first Japan store as non-smoking — a significant bet in a country with high smoking rates. The bet was correct. Non-smoking became a differentiator that attracted the exact customer they had identified, and it ultimately shaped the broader market: the kissaten culture shifted as Starbucks demonstrated there was a large, loyal, and high-spending customer segment that did not want to sit in a smoke-filled room.</p>
+
+<h3>2. A Respected Local JV Partner With Genuine Authority</h3>
+<p>Starbucks entered Japan through a 50-50 joint venture with Sazaby League — a Japanese retailer and restaurateur with deep knowledge of premium lifestyle retail and the Japanese consumer. The partnership was not treated as a distribution arrangement; Sazaby had genuine operational input into how the Starbucks concept was adapted for the market.<sup><a href="#ref-1">[1]</a></sup></p>
+<p>Howard Schultz later described Starbucks Japan as "one of Starbucks' top-performing markets globally" — a result he attributed directly to the 20-year foundation built by the joint venture partnership.<sup><a href="#ref-4">[4]</a></sup></p>
+
+<h3>3. Product Adaptation That Created Global Products</h3>
+<p>Starbucks adapted its product line around Japanese preferences in ways that proved to have global value:</p>
+<ul>
+<li>Drink sizes were made smaller. Sweetness levels were reduced. Both were identified through consumer research as Japanese preferences diverging from US norms.<sup><a href="#ref-3">[3]</a></sup></li>
+<li>Matcha (green tea) was integrated into the menu — producing the matcha latte, which is now a Starbucks staple in markets worldwide. It originated in Japan to complement the country's tea culture rather than compete with it.<sup><a href="#ref-5">[5]</a></sup></li>
+<li>Seasonal menus were built around Japanese cultural moments: the annual sakura (cherry blossom) campaign, with exclusive pink-themed drinks and merchandise, has become one of the most anticipated retail moments in Japan's spring calendar.</li>
+</ul>
+
+<h3>4. Regional Depth, Not Just National Coverage</h3>
+<p>In 2021, Starbucks Japan introduced the "47 Jimoto Frappuccino" — 47 different flavours, one per prefecture, each designed by local Starbucks partners using regional ingredients from that prefecture, and each sold exclusively in its home prefecture.<sup><a href="#ref-6">[6]</a></sup></p>
+<p>This was not a marketing gimmick. It was a demonstration that localisation was built into the operating model at every level — not just national menu adaptation, but regional specificity that turned each store into a product of its local community.</p>
+
+<h3>5. Store Design as Cultural Integration</h3>
+<p>Starbucks Japan hired local architects to design stores that integrated with their surroundings rather than imposing a uniform global template. Stores in traditional districts adopted aesthetic elements of their neighbourhood. The "Third Place" concept — a comfortable space between home and work — resonated strongly in Japan's urban culture, where private spaces are small and public social spaces are valued.</p>
+
+<h2>Key Lessons</h2>
+<ul>
+<li><strong>Enter with a specific customer in mind, not a general market.</strong> Starbucks' targeting of a non-smoking, quality-focused female consumer gave them a precise brief for every product, design, and marketing decision.</li>
+<li><strong>Adapt the product until it creates something new.</strong> The matcha latte was not a compromise — it was an innovation born from cultural alignment that became a global product.</li>
+<li><strong>Seasonal and regional specificity are competitive advantages in Japan.</strong> The sakura campaign and the 47 Jimoto Frappuccinos are not executions of a global strategy — they are locally generated assets that Starbucks' global competitors cannot replicate.</li>
+<li><strong>A non-smoking, quality-first positioning can reshape a market.</strong> Starbucks did not adapt to Japan's coffee shop culture — it created a new segment within it, then built that segment into the dominant format.</li>
+</ul>
+
+<hr />
+
+<h2 id="sources">Sources</h2>
+<ol class="references-list">
+  <li id="ref-1">The Spokesman-Review / Seattle Post-Intelligencer, <a href="https://www.spokesman.com/stories/1996/aug/03/starbucks-coffee-wafts-into-japan/" target="_blank" rel="noopener noreferrer">"Starbucks Coffee Wafts Into Japan,"</a> August 3, 1996. Documents the August 2, 1996 Ginza opening and the Sazaby joint venture structure.</li>
+  <li id="ref-2">Nikkei BizRuptors, <a href="https://www.nikkeibizruptors.com/article/f74g4usquxv7l7d7dhlzxdrz" target="_blank" rel="noopener noreferrer">"Thinking Local, Serving Global: The Starbucks Japan Strategy."</a> Documents 1,991 stores and $1.247bn net income as of October 2024.</li>
+  <li id="ref-3">Digital Marketing for Asia, <a href="https://www.digitalmarketingforasia.com/starbucks-japan-line-app-marketing/" target="_blank" rel="noopener noreferrer">"Starbucks Japan X LINE App — A Marketing Phenomenon."</a> Documents the 1995 pre-entry market research, the 30-year-old female target demographic, and the non-smoking strategy.</li>
+  <li id="ref-4">Starbucks Stories, <a href="https://stories.starbucks.com/stories/2014/starbucks-poised-for-growth-in-japan-through-full-ownership-of-market/" target="_blank" rel="noopener noreferrer">"Starbucks Poised for Continued Growth in Japan Through Full Ownership of Market,"</a> 2014. Howard Schultz's statement on Japan as a top-performing market and the JV history from 1995.</li>
+  <li id="ref-5">Kadence, <a href="https://kadence.com/en-us/knowledge/how-starbucks-wins-by-thinking-local/" target="_blank" rel="noopener noreferrer">"How Starbucks Wins by Thinking Local."</a> Documents the matcha latte's Japanese origin and its subsequent global rollout.</li>
+  <li id="ref-6">Japan Creative Enterprise, <a href="https://jbr.japancreativeenterprise.jp/2021/07/06/starbucks_japan_glocalization/" target="_blank" rel="noopener noreferrer">"Glocalization: How Starbucks Adapt and Enhance the Regional Offerings of Japan."</a> Documents the 47 Jimoto Frappuccino concept, designed by local partners using prefecture-specific ingredients.</li>
+</ol>
+    `.trim(),
+  },
 ];
 
 export function getCaseStudy(slug: string): CaseStudy | undefined {
