@@ -120,3 +120,32 @@ body {
 .prose-psi a:hover {
   color: #A87728;
 }
+.prose-psi sup a {
+  font-size: 0.7rem;
+  text-decoration: none;
+  font-weight: 600;
+  vertical-align: super;
+  line-height: 0;
+}
+.prose-psi sup a:hover {
+  text-decoration: underline;
+}
+.prose-psi ol.references-list {
+  list-style: decimal;
+  padding-left: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+.prose-psi ol.references-list li {
+  padding-left: 0;
+  font-size: 0.8125rem;
+  color: rgba(11, 31, 58, 0.6);
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+.prose-psi ol.references-list li::before {
+  display: none;
+}
+.prose-psi #sources {
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
